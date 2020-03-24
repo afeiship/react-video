@@ -39,6 +39,7 @@ npm update @feizheng/react-video
     render() {
       return (
         <div className="app-container">
+          <h1>ReactVideo</h1>
           <ReactVideo
             source={[
               {

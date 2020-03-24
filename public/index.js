@@ -8,6 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app-container">
+        <h1>ReactVideo</h1>
         <ReactVideo
           source={[
             {

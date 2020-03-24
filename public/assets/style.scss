@@ -12,8 +12,19 @@ body,
 @import "@/components/style.scss";
 
 .app-container {
+  border: 2px dotted #ccc;
   padding: 50px;
   box-sizing: border-box;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .react-video{
+    width:60%;
+  }
   .button {
     background: #3cc51f;
     width: 100%;
